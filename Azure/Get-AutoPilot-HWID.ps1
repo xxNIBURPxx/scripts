@@ -1,0 +1,1 @@
+PowerShell -NoProfile -ExecutionPolicy Unrestricted -Command c:\temp\Autopilot-Offline.ps1 -ComputerName $env:computername -OutputFile c:\temp\AutoPilotHWID.csv -append
