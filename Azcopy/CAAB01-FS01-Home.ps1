@@ -1,0 +1,1 @@
+.\azcopy.exe copy '\\usnv09-fs01\Department\IT\Scripts' 'https://viadcorp-my.sharepoint.com/personal/prubin_pursuitcollection_com/' --preserve-smb-permissions=true --preserve-smb-info=true --overwrite=false --recursive
