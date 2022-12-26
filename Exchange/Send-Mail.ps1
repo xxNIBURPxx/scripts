@@ -1,0 +1,3 @@
+Send-MailMessage -From "prubin@pursuitcollection.com" -To "prubin@pursuitcollection.com" -Subject "test" -Body "test" -Attachments 'c:\temp\vIQing Plugin Report.csv' -Priority 'High' -SmtpServer 'mail.mx.corp'
+
+Send-MailMessage -From "prubin@pursuitcollection.com" -To "Bokun-FOI-Issues@pursuitcollection.com" -Subject "Bokun FOI error group test" -Body "Testing change in exchange. Reply back to confirm." -SmtpServer 'mail.mx.corp'
