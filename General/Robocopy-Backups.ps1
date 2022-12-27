@@ -19,10 +19,10 @@ robocopy "P:\OneDrive\Phillip's Notebook" "Y:\backup\OneDrive\Phillip's Notebook
 robocopy "P:\OneDrive\Pictures" "Y:\backup\OneDrive\Pictures" *.* /MAXAGE:20221223 /XO /E
 
 #USB usbshare2
-robocopy "M:\Movies" "X:\Movies" *.* /MAXAGE:20221118 /XO /E
+robocopy "M:\Movies" "X:\Movies" *.* /MAXAGE:20221227 /XO /E
 
 #USB usbshare1-2
-robocopy "M:\Movies" "Z:\Movies" *.* /MAXAGE:20221118 /XO /E
+robocopy "M:\Movies" "Z:\Movies" *.* /MAXAGE:20221227 /XO /E
 
 #USB external WD
 robocopy "M:\Movies" "E:\Movies" *.* /MAXAGE:20221119 /XO /E
