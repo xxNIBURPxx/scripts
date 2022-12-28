@@ -10,3 +10,4 @@ netdom /domain:niburp.local /user:phil-da /password:addyourown member niburp-pc0
 
 # Join domain via PowerShell
 Add-Computer -DomainName niburp.local
+Add-Computer -DomainName niburp.local -Credential
