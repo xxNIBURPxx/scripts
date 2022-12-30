@@ -10,13 +10,7 @@ if ($connectTestResult.TcpTestSucceeded) {
 }
 
 #Azure file
-robocopy "P:\Nextcloud\prubin\files\Documents" "Y:\backup\Nextcloud\Documents" *.* /MAXAGE:20221223 /XO /E
-robocopy "P:\Nextcloud\prubin\files\Photos" "Y:\backup\Nextcloud\Photos" *.* /MAXAGE:20221223 /XO /E
-robocopy "P:\Nextcloud\prubin\files\Videos" "Y:\backup\Nextcloud\Videos" *.* /MAXAGE:20221223 /XO /E
-robocopy "P:\OneDrive\Desktop" "Y:\backup\OneDrive\Desktop" *.* /MAXAGE:20221223 /XO /E
-robocopy "P:\OneDrive\Documents" "Y:\backup\OneDrive\Documents" *.* /MAXAGE:20221223 /XO /E
-robocopy "P:\OneDrive\Phillip's Notebook" "Y:\backup\OneDrive\Phillip's Notebook" *.* /MAXAGE:20221223 /XO /E
-robocopy "P:\OneDrive\Pictures" "Y:\backup\OneDrive\Pictures" *.* /MAXAGE:20221223 /XO /E
+robocopy "F:\PersonalFiles" "P:\PersonalFiles" /XO /E *.* /MAXAGE:20221230 /XO /E
 
 #USB usbshare2
 robocopy "M:\Movies" "X:\Movies" *.* /MAXAGE:20221227 /XO /E
