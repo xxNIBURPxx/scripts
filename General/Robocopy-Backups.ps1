@@ -14,9 +14,11 @@ robocopy "F:\PersonalFiles" "P:\PersonalFiles" /XO /E *.* /MAXAGE:20221230 /XO /
 
 #USB usbshare2
 robocopy "M:\Movies" "X:\Movies" *.* /MAXAGE:20221227 /XO /E
+robocopy "F:\PersonalFiles" "X:\PersonalFiles" *.* /MAXAGE:20221231 /XO /E
 
 #USB usbshare1-2
 robocopy "M:\Movies" "Z:\Movies" *.* /MAXAGE:20221227 /XO /E
+robocopy "F:\PersonalFiles" "Z:\PersonalFiles" *.* /MAXAGE:20221231 /XO /E
 
 #USB external WD
 robocopy "M:\Movies" "E:\Movies" *.* /MAXAGE:20221230 /XO /E
