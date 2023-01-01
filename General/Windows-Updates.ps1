@@ -14,7 +14,7 @@
 # Set execution policy to install required PowerShell modules
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine
 
-# Enable vNIC
+# Enable NIC
     netsh interface set interface "Ethernet0" admin=enable
     TIMEOUT /T 30
 
@@ -53,5 +53,5 @@
 # Stop Windows defender service
     Set-MpPreference -DisableRealtimeMonitoring $true
 
-# Disable vNIC
+# Disable NIC
     netsh interface set interface "Ethernet0" admin=disable
