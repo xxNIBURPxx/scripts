@@ -1,3 +1,4 @@
+# Get AD user when created filtered by event 4720
 $Report = @()
 $time = (get-date) - (new-timespan -hour 24)
 $AllDCs = Get-ADDomainController -Filter *
@@ -21,3 +22,12 @@ $Report += $objReport
 }
 }
 $Report
+
+# Get ADUser
+Get-ADUser prubin –properties name,whencreated,whocreated|select name,whencreated,whocreated
+
+# Get ADUsers created
+$lastday = ((Get-Date).AddDays(120))
+$filename = Get-Date -Format yyyy.MM.dd
+$exportcsv=”c:\temp\new_ad_users_” + $filename + “.csv”
+Get-ADUser -filter {(whencreated -ge $lastday)} –properties whencreated | Select-Object Name, UserPrincipalName, SamAccountName, whencreated | Export-csv -path $exportcsv
