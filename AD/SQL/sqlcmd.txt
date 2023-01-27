@@ -1,0 +1,11 @@
+# Login
+sqlcmd -U datastoredb -Slocalhost\SQLExpress
+
+# set correct password
+sp_password @new = '', @loginame = 'sa'
+sp_password @new = '', @loginame = 'datastoredb'
+
+# unlocked sa account
+ALTER LOGIN sa WITH CHECK_POLICY = OFF;
+ALTER LOGIN sa WITH CHECK_POLICY = ON;
+GO

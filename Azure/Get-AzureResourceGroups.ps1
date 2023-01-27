@@ -1,5 +1,9 @@
 #Get Azure resource groups and tags
 
+#get az resource Azure cloud console
+Get-AzureRmResource | Export-CSV pursuit-resources.csv
+
+
 #set subscription
 #Dev
 Set-AzContext -Subscription '1854b75f-ca5d-4b38-9bf1-4d4c5a5bbf3e'

@@ -1,5 +1,5 @@
 ##Set Hostname
-racadm set System.ServerOS.HostName usmt13-esx01-lo.ges.intra
+racadm set System.ServerOS.HostName usak05-esx02.ges.intra
 ##Set Server OS Name
 racadm set System.ServerOS.OSName "name"
 ##Stop start lifecycle controller
