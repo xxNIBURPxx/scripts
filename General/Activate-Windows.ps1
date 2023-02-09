@@ -6,5 +6,7 @@
     TIMEOUT /T 15
 # Shutdown Servicehost
     taskkill.exe /im "Servicehost.exe" /f
+# Pause for Servicehost.exe shutdown
+    TIMEOUT /T 15
 # Reboot workstation
     shutdown -r -t 01
