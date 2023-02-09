@@ -10,7 +10,8 @@ if ($connectTestResult.TcpTestSucceeded) {
 }
 
 #Azure file
-robocopy "F:\PersonalFiles" "P:\PersonalFiles" /XO /E *.* /MAXAGE:20230108 /XO /E
+robocopy "F:\PersonalFiles" "P:\PersonalFiles" /XO /E *.* /MAXAGE:20230209 /XO /E
+robocopy "F:\PersonalFiles" "Y:\PersonalFiles" /XO /E *.* /MAXAGE:20230209 /XO /E
 
 #USB usbshare2
 robocopy "M:\Movies" "X:\Movies" *.* /MAXAGE:20230209 /XO /E
