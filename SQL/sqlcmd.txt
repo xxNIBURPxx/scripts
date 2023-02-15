@@ -1,5 +1,6 @@
 # Login
 sqlcmd -U datastoredb -Slocalhost\SQLExpress
+sqlcmd -U sa -Slocalhost\SQLExpress
 
 # set correct password
 sp_password @new = '', @loginame = 'sa'
