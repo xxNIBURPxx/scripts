@@ -22,7 +22,7 @@ robocopy "M:\Movies" "Z:\Movies" *.* /MAXAGE:20230209 /XO /E
 robocopy "F:\PersonalFiles" "Z:\PersonalFiles" *.* /MAXAGE:20230209 /XO /E
 
 #USB external WD
-robocopy "M:\Movies" "E:\Movies" *.* /MAXAGE:20221230 /XO /E
-robocopy "P:\PersonalFiles" "E:\Data\PersonalFiles" *.* /MAXAGE:20221230 /XO /E
-robocopy "P:\OneDrive" "E:\Data\OneDrive" *.* /MAXAGE:20221230 /XO /E
-robocopy "S:\Software" "E:\Software" *.* /MAXAGE:20221230 /XO /E
+robocopy "M:\Movies" "E:\Movies" *.* /MAXAGE:20230228 /XO /E
+robocopy "P:\PersonalFiles" "E:\Data\PersonalFiles" *.* /MAXAGE:20230228 /XO /E
+robocopy "P:\OneDrive" "E:\Data\OneDrive" *.* /MAXAGE:20230228 /XO /E
+robocopy "S:\Software" "E:\Software" *.* /MAXAGE:20230228 /XO /E
